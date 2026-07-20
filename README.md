@@ -50,10 +50,21 @@ Through this exercise I learned
 numpy-image-preprocessing/
 │
 ├── src/
+│   ├── generator.py
+│   ├── pattern.py
+│   └── main.py
+│
 ├── tests/
+│   └── NumpyTests.py
+│
 ├── images/
+│   ├── checker.png
+│   ├── circle.png
+│   └── spectrum.png
+│
 ├── README.md
 ├── LICENSE
+├── .gitignore
 └── requirements.txt
 ```
 
