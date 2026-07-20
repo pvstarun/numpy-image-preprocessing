@@ -2,9 +2,7 @@
 ![NumPy](https://img.shields.io/badge/NumPy-Vectorization-green)
 # Deep Learning Fundamentals with NumPy
 
-This repository contains my implementation of the introductory Deep Learning assignment completed as part of my Master's course.
-
-The project focuses on understanding image manipulation and data preprocessing using NumPy before moving on to neural networks.
+This project implements fundamental image generation and preprocessing techniques using NumPy as part of my Master's coursework in Deep Learning. It focuses on building efficient image processing pipelines and data augmentation techniques before transitioning to deep learning frameworks such as PyTorch and TensorFlow.
 
 ## Features
 
@@ -45,3 +43,38 @@ Through this exercise I learned
 | <img width="640" height="480" alt="Checkerboard Pattern" src="https://github.com/user-attachments/assets/3d79d923-815c-4899-a791-2511c883245e" /> | <img width="640" height="480" alt="Binary Circle Pattern" src="https://github.com/user-attachments/assets/e4b0b6ca-768e-4453-823c-bb375807ed0c" />| <img width="640" height="480" alt="RGB Color Spectrum" src="https://github.com/user-attachments/assets/cbadc25d-c2ad-49be-a7ed-02c3c8d0f66d" />|
 
 <img width="1440" height="737" alt="Images with their Labels" src="https://github.com/user-attachments/assets/ae74ad2d-960b-40d6-9d93-301327d8e918" />
+
+## Project Structure
+
+```
+numpy-image-preprocessing/
+│
+├── src/
+├── tests/
+├── images/
+├── README.md
+├── LICENSE
+└── requirements.txt
+```
+
+## Installation
+
+```bash
+git clone https://github.com/pvstarun/numpy-image-preprocessing.git
+
+cd numpy-image-preprocessing
+
+pip install -r requirements.txt
+```
+
+## Running the project
+
+```bash
+python src/main.py
+```
+
+Run tests
+
+```bash
+python tests/NumpyTests.py
+```
