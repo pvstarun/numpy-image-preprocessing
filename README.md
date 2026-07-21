@@ -49,10 +49,13 @@ Through this exercise I learned
 ```
 numpy-image-preprocessing/
 │
-├── src/
+├── src_to_implement/
 │   ├── generator.py
 │   ├── pattern.py
 │   └── main.py
+│   └── NumpyTests.py
+│   └── exercise_data/
+│   └── Labels.json
 │
 ├── tests/
 │   └── NumpyTests.py
