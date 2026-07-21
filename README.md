@@ -82,11 +82,11 @@ pip install -r requirements.txt
 ## Running the project
 
 ```bash
-python src/main.py
+python src_to_implement/main.py
 ```
 
 Run tests
 
 ```bash
-python tests/NumpyTests.py
+python src_to_implement/NumpyTests.py
 ```
